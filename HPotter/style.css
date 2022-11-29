@@ -1,0 +1,25 @@
+.searchBar{
+    text-align: center;
+}
+.character-data{
+    background-color: rgba(245, 245, 245, 0.914);
+    padding: 30px;
+    list-style: none;
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 7px 7px 15px black;
+    
+}
+.img-div{
+    justify-content: center;
+    align-content: center;
+}
+.img-wrap{
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    
+}
