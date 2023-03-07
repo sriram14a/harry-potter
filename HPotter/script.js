@@ -9,7 +9,7 @@ searchBar.addEventListener('keyup',(e)=>{
 })
 async function getchar() {
 
-    let url = await fetch("https://hp-api.herokuapp.com/api/characters")
+    let url = await fetch("https://hp-api.onrender.com/api/characters")
     res = await url.json();
     console.log(res);
     display(res)
